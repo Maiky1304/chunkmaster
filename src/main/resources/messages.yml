@@ -1,0 +1,3 @@
+prefix: "<bold><gradient:#5356FF:#378CE7>ChunkMaster</gradient></bold> <#EEEEEE>| "
+activated-chunk-loader: "<#B5C0D0>You have placed an <#67C6E3><bold>Chunk Loader</bold> <#B5C0D0>in this chunk. It will keep the chunk loaded even when you are not online. You can remove it by <bold>shift breaking it</bold>."
+chunk-loader-already-placed: "<#FF4D4D>You have already placed a <bold>Chunk Loader</bold> in this chunk."

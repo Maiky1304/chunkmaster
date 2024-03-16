@@ -10,8 +10,9 @@ recipe:
     - GIG
 
 item:
-  name: '<#008DDA>&lChunk Loader'
+  type: LODESTONE
+  name: '#008DDAChunk Loader'
   lore:
-    - '<#7F7F7F>Place this item to load the'
-    - '<#7F7F7F>chunk it is placed in. This'
-    - '<#7F7F7F>will keep the chunk loaded.'
+    - '#7F7F7FPlace this item to load the'
+    - '#7F7F7Fchunk it is placed in. This'
+    - '#7F7F7Fwill keep the chunk loaded.'
