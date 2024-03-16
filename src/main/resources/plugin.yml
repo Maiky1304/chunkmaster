@@ -1,0 +1,4 @@
+name: ChunkMaster
+version: '${project.version}'
+main: com.github.maiky1304.chunkmaster.ChunkMaster
+api-version: '1.20'
