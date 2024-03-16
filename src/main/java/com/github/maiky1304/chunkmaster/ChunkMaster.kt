@@ -1,15 +1,18 @@
 package com.github.maiky1304.chunkmaster
 
+import com.github.maiky1304.chunkmaster.config.Config
+import net.kyori.adventure.platform.bukkit.BukkitAudiences
 import org.bukkit.plugin.java.JavaPlugin
 
 class ChunkMaster : JavaPlugin() {
 
-    override fun onEnable() {
-        // Plugin startup logic
-    }
+    private lateinit var adventure: BukkitAudiences
 
-    override fun onDisable() {
-        // Plugin shutdown logic
+    private lateinit var configuration: Config
+    private lateinit var data: Config
+
+    override fun onEnable() {
+        this.adventure = BukkitAudiences.create(this)
     }
 
 }

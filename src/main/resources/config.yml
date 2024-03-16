@@ -1,0 +1,17 @@
+recipe:
+  materials:
+    G: GLASS
+    I: IRON_BLOCK
+    N: NETHER_STAR
+    D: DIAMOND
+  pattern:
+    - GIG
+    - DND
+    - GIG
+
+item:
+  name: '<#008DDA>&lChunk Loader'
+  lore:
+    - '<#7F7F7F>Place this item to load the'
+    - '<#7F7F7F>chunk it is placed in. This'
+    - '<#7F7F7F>will keep the chunk loaded.'

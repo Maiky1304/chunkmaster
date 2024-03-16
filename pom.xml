@@ -12,7 +12,7 @@
   <name>ChunkMaster</name>
 
   <properties>
-    <java.version>1.8</java.version>
+    <java.version>17</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <kotlin.version>1.9.23</kotlin.version>
   </properties>
@@ -53,7 +53,7 @@
                 </execution>
             </executions>
             <configuration>
-                <jvmTarget>1.8</jvmTarget>
+                <jvmTarget>${java.version}</jvmTarget>
             </configuration>
         </plugin>
         <plugin>
@@ -126,6 +126,21 @@
           <artifactId>kotlin-test</artifactId>
           <version>${kotlin.version}</version>
           <scope>test</scope>
+      </dependency>
+      <dependency>
+          <groupId>net.kyori</groupId>
+          <artifactId>adventure-api</artifactId>
+          <version>4.16.0</version>
+      </dependency>
+      <dependency>
+          <groupId>net.kyori</groupId>
+          <artifactId>adventure-platform-bukkit</artifactId>
+          <version>4.3.2</version>
+      </dependency>
+      <dependency>
+          <groupId>net.kyori</groupId>
+          <artifactId>adventure-text-minimessage</artifactId>
+          <version>4.16.0</version>
       </dependency>
   </dependencies>
 </project>
